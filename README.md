@@ -85,7 +85,7 @@ This file contains a number of front-end interview questions that can be used wh
   * Describe what you like and dislike about the CSS preprocessors you have used.
 * How would you implement a web design comp that uses non-standard fonts?
 * Explain how a browser determines what elements match a CSS selector.
-* Describe pseudo-elements and discuss what they are used for. 
+* Describe pseudo-elements and discuss what they are used for.
 * Explain your understanding of the box model and how you would tell the browser in CSS to render your layout in different box models.
 * What does ```* { box-sizing: border-box; }``` do? What are its advantages?
 * List as many values for the display property that you can remember.
@@ -100,7 +100,7 @@ This file contains a number of front-end interview questions that can be used wh
 
 #### JS Questions:
 
-* Explain event delegation
+* Explain event delegation: Event delegation is a method for responding to DOM events. It allows you to attach an event listener to a parent element that will trigger for all its children. This is possible through the use of event bubbling, which is the triggering of an event on all the ancestors of a descendant from where the event occurred.
 * Explain how `this` works in JavaScript
 * Explain how prototypal inheritance works
 * What do you think of AMD vs CommonJS?
@@ -151,7 +151,7 @@ duplicate([1,2,3,4,5]); // [1,2,3,4,5,1,2,3,4,5]
 * Explain the difference between synchronous and asynchronous functions.
 * What is event loop?
   * What is the difference between call stack and task queue?
-* Explain the differences on the usage of `foo` between `function foo() {}` and `var foo = function() {}` 
+* Explain the differences on the usage of `foo` between `function foo() {}` and `var foo = function() {}`
 
 #### Testing Questions:
 
