@@ -101,7 +101,7 @@ This file contains a number of front-end interview questions that can be used wh
 #### JS Questions:
 
 * Explain event delegation: Event delegation is a method for responding to DOM events. It allows you to attach an event listener to a parent element that will trigger for all its children. This is possible through the use of event bubbling, which is the triggering of an event on all the ancestors of a descendant from where the event occurred.
-* Explain how `this` works in JavaScript
+* Explain how `this` works in JavaScript: When used within a method, 'this' is used to keep reference to the object that owns the function. However, if the method is invoked in some different context and not by the object that owns it, 'this' will lose its reference to the object and instead bind itself to the global object 'window'. Therefore, 'this' is not determined at definition time, but rather at execution time.  
 * Explain how prototypal inheritance works
 * What do you think of AMD vs CommonJS?
 * Explain why the following doesn't work as an IIFE: `function foo(){ }();`.
