@@ -111,7 +111,7 @@ This file contains a number of front-end interview questions that can be used wh
 * What is a closure, and how/why would you use one?
 * What's a typical use case for anonymous functions?
 * How do you organize your code? (module pattern, classical inheritance?)
-* What's the difference between host objects and native objects?
+* What's the difference between host objects and native objects? Host objects are objects provided by the environment. Native objects are objects provided by JavaScript itself. 
 * Difference between: `function Person(){}`, `var person = Person()`, and `var person = new Person()`?
 * What's the difference between `.call` and `.apply`?
 * Explain `Function.prototype.bind`.
