@@ -117,7 +117,7 @@ This file contains a number of front-end interview questions that can be used wh
 * Explain `Function.prototype.bind`.
 * When would you use `document.write()`?
 * What's the difference between feature detection, feature inference, and using the UA string?
-* Explain Ajax in as much detail as possible.
+* Explain Ajax in as much detail as possible: Ajax stands for Asynchronous JavaScript and XML. It allows you to update parts of your web page without reloading the whole thing. It is a group of technologies - HTML, CSS, JavaScript, JSON, the DOM, and the XMLHttpRequest object. HTML and CSS are used for presentation. The DOM for dynamic display of and interaction with data. XMLHttpRequest object for asynchronous communication. JSON for the interchange of data. And finally JavaScript to bring all these technologies together. 
 * What are the advantages and disadvantages of using Ajax?
 * Explain how JSONP works (and how it's not really Ajax).
 * Have you ever used JavaScript templating?
