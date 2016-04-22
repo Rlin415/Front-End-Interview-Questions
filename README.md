@@ -108,7 +108,7 @@ This file contains a number of front-end interview questions that can be used wh
   * What needs to be changed to properly make it an IIFE? (function foo(){})();
 * What's the difference between a variable that is: `null`, `undefined` or undeclared? 'null' is a special type of object that can be assigned to variables to represent 'no value'. Undefined means that the variable does not have a value assigned to it yet. Undeclared means that the variable has not been decalred yet.
   * How would you go about checking for any of these states? 
-* What is a closure, and how/why would you use one?
+* What is a closure, and how/why would you use one? A closure is an inner function returned within an outer function that retains access to the variables of the outer function.  
 * What's a typical use case for anonymous functions?
 * How do you organize your code? (module pattern, classical inheritance?)
 * What's the difference between host objects and native objects? Host objects are objects provided by the environment. Native objects are objects provided by JavaScript itself. 
